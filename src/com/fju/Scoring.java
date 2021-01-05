@@ -3,7 +3,7 @@ package com.fju;
 public class Scoring {
 
 	public static void main(String[] args) {
-		Student stu1 = new Student("Jack", 60, 81);
+		Student stu1 = new Student("Jack", 40, 81);
 		int average = stu1.average();
 		if (average <= 60) {
 			System.out.println("I am sorry");
